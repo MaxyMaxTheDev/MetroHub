@@ -1,4 +1,4 @@
-# WSRP-Store
+# MetroHub
 The Windows 8.1 Store. Revived.
 
 This is one of many Windows 8.1 Store projects that aims to restore the ability to use the Windows Store on Windows 8.1.
@@ -18,4 +18,4 @@ This is one of many Windows 8.1 Store projects that aims to restore the ability 
 - [x] Collections
 - [ ] More Apps!
 
-[![badge](https://ms-store-appx.github.io/storefront/app-badge/winstore2014/ab2012ws980312.png?raw=true)](ms-store://) 
+
