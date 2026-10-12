@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  IgnorableNamespaces="uap">
+  <Identity Name="MetroHub" Publisher="CN=MetroHub" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>MetroHub</DisplayName>
+    <PublisherDisplayName>MetroHub</PublisherDisplayName>
+    <Description>Who said Windows 8.1 store was gone? NOBODY.</Description>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <!-- Target Desktop/Windows 8.1+ -->
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="6.3.9600.0" MaxVersionTested="10.0.19041.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="MetroHub" Square150x150Logo="Assets\StoreLogo.png" Square44x44Logo="Assets\SmallLogo.png" Description="Who said Windows 8.1 store was gone? NOBODY.">
+        <uap:DefaultTile ShortName="MetroHub" Wide310x150Logo="Assets\WideLogo.png" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+</Package>
